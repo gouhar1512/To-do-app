@@ -1,0 +1,111 @@
+body{
+     background-image: linear-gradient(to right,#00AAFF, #00FF6C);
+}
+table{
+  border:1px solid black;
+  width: 100%;
+  margin-top:10px;
+  background-color:white;
+  user-select: none;
+}
+table tr:nth-child(odd){
+    background: #ccc;
+}
+table tr td:nth-child(2){
+    background: white;
+    width:20px;
+}
+table tr td:nth-child(2):hover{
+    background: firebrick;
+    width:20px;
+}
+tr th{
+  background-color: black;
+  color:white;
+  padding: 5px;
+}
+tr td {
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  border: 1px solid black;
+  padding:5px;
+}
+
+.close{
+  background-color: white;
+  border:1px solid black;
+  font-weight:bold;
+}
+.close:hover{
+  background-color: firebrick;
+  cursor: pointer;
+  color: white;
+}
+
+#inputItem {
+  padding: 10px;
+  width:60%;
+} 
+#addBtn{
+  border: none;
+  border-radius: 0;
+  padding: 11px;
+  margin-left: -5px;
+  width:30%;
+  font-weight:bold;
+}
+#addBtn:hover{
+  background-color:silver;
+}
+.gridBox
+{
+  display: grid;
+  justify-content: center;
+  grid-template-columns:500px;
+  padding-top:50px;
+}
+
+.container1{
+  background-color: chocolate;
+  padding:17px;
+  padding-right: 2px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.container2{
+  background-color: burlywood;
+  padding:17px;
+  padding-top: 0px;
+  height:300px;
+  overflow:auto;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.cover{
+  border:5px solid brown;
+  border-radius: 15px;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+=
+::-webkit-scrollbar-track {
+  display:none;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+}
